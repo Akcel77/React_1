@@ -6,12 +6,14 @@ class Maman extends Component{
 
     state = {
         messageMaman: null,
-        messageToto: null
+        messageToto: null,
+        disable: true
     }    
 
     ordre = () => {
         this.setState({
-            messageMaman : 'Va ranger ta chambre'
+            messageMaman : 'Va ranger ta chambre',
+            disable: false
         })
     }
 
