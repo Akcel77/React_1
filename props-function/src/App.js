@@ -1,13 +1,15 @@
 import './App.css';
-import Maman from './components/Maman';
+import Display from './components/Display';
+
 
 
 function App() {
   return (
     <div className="App">
-      <Maman>
+     
+      <Display>
 
-      </Maman>
+      </Display>
     </div>
   );
 }
